@@ -10,6 +10,9 @@ namespace CS_Step165
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.PersonName("Sample", "Student");
+            Console.ReadLine();
         }
     }
 }
