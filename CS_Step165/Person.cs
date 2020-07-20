@@ -8,15 +8,12 @@ namespace CS_Step165
 {
     public class Person
     {
-        public void PersonName(string FirstName, string LastName)
-        {
-            string FullName = FirstName + " " + LastName;
-            SayName();
+        public string FirstName;
+        public string LastName;
 
-            void SayName()
-            {
-                Console.WriteLine("Name:" + FullName);
-            }
+        public void SayName()
+        {
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }

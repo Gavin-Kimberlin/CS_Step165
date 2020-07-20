@@ -8,9 +8,6 @@ namespace CS_Step165
 {
     public class Employee : Person
     {
-        public void EmployeeId(int Id)
-        {
-            Id = 1;
-        }
+        public int Id { get; set; }
     }
 }
